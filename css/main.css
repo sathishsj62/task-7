@@ -1,0 +1,109 @@
+.banner {
+    height: 100%;
+    position: relative;
+    background: #4353ff;
+    z-index: 5;
+}
+.banner::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 50%;
+    background: #74b9ff;
+    border-radius: 0 0 100px 0;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+.banner::before{
+
+}
+
+.banner-left {
+    margin-top: 120px;
+    display: inline-block;
+    position: relative;
+}
+
+.banner-left h4 {
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    margin-bottom: 6px;
+}
+
+.banner-left h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: left;
+    color: #fff;
+}
+.banner-left h3{
+    display: block;
+    margin-top: 5px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+
+}
+.banner-left ul{
+    display: block;
+    margin-top: 10px;
+}
+.banner-left ul li{
+    display: inline-block;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 15px;
+    position: relative;
+    padding-left: 15px;
+    line-height: 26px;
+}
+.banner-left ul li::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    height: 6px;
+    width: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-top: -4px;
+}
+.banner-left p{
+    color: #fff;
+    display: block;
+    margin-top: 15px;
+}
+.bn-button{
+    display: block;
+    margin-top: 20px;
+    color: #4353ff;
+    margin-right: 20px;
+}
+.bn-button .Contact-btn{
+    background-color: #fff;
+    color: #4353ff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.video-play {
+    height: 53px;
+    width: 53px;
+    line-height: 53px;
+    border-radius: 50%;
+    color: #4353ff;
+    background-color: #fff;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.video-play a{
+    text-decoration: none;
+}

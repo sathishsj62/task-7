@@ -469,10 +469,15 @@
 }
 
 /* Education */
+.education {
+    background: #f6f9fc;
+}
+
 .education-text {
     margin-bottom: 60px;
     text-align: center;
     padding: 0 300px;
+    padding-top: 80px;
 }
 
 .education-text h4 {
@@ -481,7 +486,8 @@
     margin-bottom: 0;
     font-size: 15px;
 }
-.education-text h2{
+
+.education-text h2 {
     font-size: 37px;
     margin-bottom: 18px;
     line-height: 50px;
@@ -490,7 +496,8 @@
     font-weight: 700;
     padding-bottom: 14px;
 }
-.education-text h2::before{
+
+.education-text h2::before {
     content: "";
     position: absolute;
     left: 50%;
@@ -501,25 +508,29 @@
     background: #4353ff;
 
 }
-.education-box{
+
+.education-box {
     padding-left: 30px;
     margin-right: 15px;
     margin-left: 15px;
 }
-.education-text p{
+
+.education-text p {
     font-size: 15px;
     line-height: 24px;
     color: #6e657e;
     font-family: "Barlow", sans-serif;
 }
-.education-box h3{
+
+.education-box h3 {
     font-size: 30px;
     color: #333;
     font-weight: 700;
     margin-bottom: 30px;
     line-height: 40px;
 }
-.education-box span{
+
+.education-box span {
     display: inline-block;
     text-align: center;
     padding: 10px 20px;
@@ -532,22 +543,25 @@
     position: relative;
     border-radius: 5px;
 }
-.edu-detail{
+
+.edu-detail {
     background: #fff;
     position: relative;
     margin-bottom: 30px;
     padding: 40px 40px;
     box-shadow: 0px 10px 60px 0px rgb(0 11 40 / 9%);
     border-radius: 3px;
-    
+
 }
-.detail-head{
+
+.detail-head {
     border-bottom: 2px solid #eeeeee3d;
     padding-bottom: 30px;
     margin-bottom: 25px;
     position: relative;
 }
-.detail-head .icon-box1{
+
+.detail-head .icon-box1 {
     height: 70px;
     width: 70px;
     background: #fff;
@@ -560,36 +574,190 @@
     bottom: 18px;
     box-shadow: 5px 5px 15px #8e8e8e14;
 }
-.detail-head .icon-box{
-   position: absolute;
+
+.detail-head .icon-box {
+    position: absolute;
     color: #9b9b9b;
     bottom: 20px;
     font-size: 50px;
     right: 20px;
     opacity: .1;
 }
-.detail-text{
+
+.detail-text {
     padding-left: 95px;
     padding-top: 12px;
 }
-.detail-text h4{
+
+.detail-text h4 {
     color: #444;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
 
 }
-.detail-text p{
+
+.detail-text p {
     font-family: "Barlow", sans-serif;
     color: #6e657e;
     font-size: 13px;
 }
-.edu-detailend h5{
+
+.edu-detailend h5 {
     color: #979797;
     line-height: 25px;
     margin-bottom: 25px;
 }
-.edu-detailend p{
+
+.edu-detailend p {
     color: #979797;
     line-height: 25px;
+}
+
+/* PRICING */
+.pricing-head {
+    text-align: center;
+    padding: 0 300px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.pricing-head h4 {
+    color: #4353ff;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.pricing-head h2 {
+    font-size: 37px;
+    margin-bottom: 18px;
+    line-height: 50px;
+    text-transform: uppercase;
+    position: relative;
+    font-weight: 700;
+    padding-bottom: 14px;
+
+}
+
+.pricing-head h2::before {
+    content: "";
+    position: absolute;
+    background: #4353ff;
+    width: 50px;
+    left: 50%;
+    margin-left: -25px;
+    bottom: -1px;
+    height: 2px
+}
+
+.pricing-head p {
+    font-size: 15px;
+    line-height: 24px;
+    font-family: "Barlow", sans-serif;
+    color: #6e657e;
+
+}
+
+.pricing-box {
+    background: #fff;
+    text-align: center;
+    position: relative;
+    padding: 60px 20px;
+    box-shadow: 0 10px 30px rgb(111 111 111 / 10%);
+
+}
+
+.pricing-box h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0px;
+    color: #081828;
+}
+
+.pricing-box h4 span {
+    display: block;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+}
+
+.cost-box {
+    height: 120px;
+    width: 120px;
+    display: inline-block;
+    border: 1px dashed #74b9ff;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.cost-box h5 {
+    position: relative;
+    color: #333;
+    font-size: 35px;
+    display: inline-block;
+    margin: 45px 0;
+    font-weight: 600;
+    line-height: 28px;
+
+}
+
+.cost-box h5 sub {
+    color: #555;
+    font-size: 17px;
+    font-weight: 400;
+    position: absolute;
+    left: -14px;
+    top: -7px;
+}
+
+.cost-box h5 span {
+    color: #888;
+    font-size: 11px;
+    font-weight: 400;
+    position: absolute;
+    right: -25px;
+    bottom: -6px;
+}
+
+.pricing-box ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+.pricing-box ul li {
+    color: #444;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Barlow", sans-serif;
+}
+
+.pricing-box button {
+    margin-top: 30px;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #4353ff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 15px 30px;
+}
+
+.pricing-box button a {
+    text-decoration: none;
+    color: #fff;
+
+}
+.pricing-box .Popular{
+    color: #fff;
+    background: #4353ff;
+    display: inline-block;
+    padding: 6px 23px;
+    position: absolute;
+    right: -17px;
+    top: 15px;
+    font-size: 13px;
+    transform: rotate(45deg);
 }

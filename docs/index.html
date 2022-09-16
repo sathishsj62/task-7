@@ -23,12 +23,14 @@
                     <nav class="navbar navbar-expand-lg bg-light">
                         <div class="container-fluid">
                             <a class="navbar-brand" href="#">
-                                <h2>polio</h2>
+                                <h2>polio
+                                    <span>.</span>
+                                </h2>
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <i class="icofont-justify-all" style="color:#111 ;"></i>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -52,12 +54,14 @@
                                     </li>
 
                                 </ul>
-
+                                <div class="nav-button">
+                                    <a href="#">Hire Me Now!</a>
+                                </div>
                             </div>
+
+
                         </div>
-                        <div class="button">
-                            <a href="#">Hire Me Now!</a>
-                        </div>
+
 
                     </nav>
 
@@ -69,7 +73,7 @@
     <section class="banner">
         <div class="container">
             <div class="row">
-                <div class=" col-12 col-lg-6 ">
+                <div class=" col-sm-12 col-md-6 col-lg-6 ">
                     <div class="banner-left ">
                         <h4>Hello I am...</h4>
                         <h1> Jordan Parker</h1>
@@ -95,20 +99,20 @@
 
                     </div>
                 </div>
-                <div class=" col-12 col-lg-6">
+                <div class=" col-sm-12 col-md-6 col-lg-6">
                     <div class="banner-right">
                         <img src="./images/hero-image.png" class="img-fluid" alt="">
                     </div>
                 </div>
             </div>
         </div>
-        <!-- <img src="./images/testi-shape.png" class="img-fluid" alt=""> -->
+
     </section>
     <!-- banner End -->
     <!-- achivement start -->
     <section class="achived">
         <div class="container">
-            <div class="row">
+            <div class="row gy-4 justify-content-center">
                 <div class=" col-12 col-lg-6">
                     <div class="achied-left">
                         <p>I help our clients create brands, build <span class="span1">digital products </span>
@@ -137,32 +141,30 @@
                         </div>
                     </div>
                 </div>
-                <div class=" col-12 col-lg-6">
-                    <div class="row gy-4 justify-content-center">
-                        <div class=" col-md-6 col-lg-4">
-                            <div class="achived-box">
-                                <span>10</span>
-                                <h3>Years Of Experience</h3>
-                            </div>
-                        </div>
-                        <div class=" col-md-6 col-lg-4">
-                            <div class="achived-box" style="background: #74b9ff">
-                                <span>100</span>
-                                <h3>
-                                    Haapy <br>
-                                    clients</h3>
-                            </div>
-                        </div>
-                        <div class=" col-md-6 col-lg-4">
-                            <div class="achived-box" style="background: #081828;">
-                                <span>500</span>
-                                <h3>
-                                    Project <br>
-                                    Done</h3>
-                            </div>
-                        </div>
+                <div class=" col-md-4 col-lg-2">
+                    <div class="achived-box">
+                        <span>10</span>
+                        <h3>Years Of Experience</h3>
                     </div>
                 </div>
+                <div class=" col-md-4 col-lg-2 ">
+                    <div class="achived-box" style="background: #74b9ff">
+                        <span>100</span>
+                        <h3>
+                            Haapy <br>
+                            clients</h3>
+                    </div>
+                </div>
+                <div class=" col-md-4 col-lg-2">
+                    <div class="achived-box" style="background: #081828;">
+                        <span>500</span>
+                        <h3>
+                            Project <br>
+                            Done</h3>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
@@ -171,10 +173,10 @@
     <section class="about">
         <div class="container">
             <div class="about-text">
-                <span>Some Lines About My Self</span>
+                <h4>Some Lines About My Self</h4>
                 <h1>about me
                 </h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                <p>There are many variations of passages of Lorem Ipsum available, but the <br> majority have suffered
                     alteration in some form.</p>
             </div>
             <div class="row">
@@ -190,7 +192,7 @@
                         <div class="about-items">
                             <ul>
                                 <li>
-                                    <a href="#" class="active-item">About Me</a>
+                                    <a href="#" class="active-link">About Me</a>
                                 </li>
                                 <li>
                                     <a href="#">My skills</a>
@@ -486,7 +488,7 @@
                 <p>There are many variations of passages of Lorem
                     Ipsum available, but the majority have suffered alteration in some form.</p>
             </div>
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="pricing-box">
                         <h4>Basic
@@ -821,6 +823,154 @@
             </div>
         </div>
     </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-head">
+                <h4>What Saye's Our Clients</h4>
+                <h2>Our Testimonials</h2>
+                <p>There are many variations of passages of Lorem
+                    Ipsum available, but the majority have suffered alteration in some form.</p>
+            </div>
+            
+             <section class="review ">
+                <div class="container">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                class="active" aria-label="Slide 2">
+                            </button>
+                        </div>
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row justify-content-center gy-4">
+                                    <div class=" col-sm-12 col-md-6 col-lg-4">
+                                        <div class="card review-card">
+                                            <div class="review-card-title">
+
+                                                <div class="review-icon">
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                </div>
+                                            </div>
+                                            <div class="card-body">
+                                                <i class="icofont-quote-right"></i>
+                                                <p>
+                                                    " I just brought it and i love it. Lorem Ipsum is simply dummy text
+                                                    of the and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever
+                                                    since the 1500s."
+
+                                                </p>
+                                                <div class="testimonial-bottom">
+                                                    <div class="client-image">
+                                                        <img src="./images/testi1.jpg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <h1>Sara Wilsson
+                                                        <span>Designer</span>
+                                                    </h1>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class=" col-sm-12 col-md-6 col-lg-4">
+                                        <div class="card review-card">
+                                            <div class="review-card-title">
+
+                                                <div class="review-icon">
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                </div>
+
+                                            </div>
+                                            <div class="card-body">
+                                                <i class="icofont-quote-right"></i>
+                                                <p>
+                                                    " I just brought it and i love it. Lorem Ipsum is simply dummy text
+                                                    of the and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever
+                                                    since the 1500s."
+
+                                                </p>
+                                                <div class="testimonial-bottom">
+                                                    <div class="client-image">
+
+                                                        <img src="./images/testi2.jpg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <h1>Naimur Rahman
+                                                        <span>CEO - Wpthemes Grid</span>
+                                                    </h1>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class=" col-sm-12 col-md-6 col-lg-4">
+                                        <div class="card review-card">
+                                            <div class="review-card-title">
+
+                                                <div class="review-icon">
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                    <i class="icofont-ui-rating"></i>
+                                                </div>
+
+                                            </div>
+                                            <div class="card-body">
+                                                <i class="icofont-quote-right"></i>
+                                                <p>
+                                                    " I just brought it and i love it. Lorem Ipsum is simply dummy text
+                                                    of the and
+                                                    typesetting industry. Lorem Ipsum has been the industry's standard
+                                                    dummy text ever
+                                                    since the 1500s."
+
+                                                </p>
+                                                <div class="testimonial-bottom">
+                                                    <div class="client-image">
+
+                                                        <img src="./images/testi2.jpg" class="img-fluid" alt="">
+                                                    </div>
+                                                    <h1>Naimur Rahman
+                                                        <span>CEO - Wpthemes Grid</span>
+                                                    </h1>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+    </section>
     <!-- BLOG -->
     <section class="blog">
         <div class="container">
@@ -830,8 +980,8 @@
                 <p>There are many variations of passages of Lorem
                     Ipsum available, but the majority have suffered alteration in some form.</p>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
+            <div class="row gy-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="bolg-box">
                         <div class="image">
                             <img src="./images/blog1.jpg" class="img-fluid" alt="">
@@ -844,7 +994,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="bolg-box">
                         <div class="image">
                             <img src="./images/blog2.jpg" class="img-fluid" alt="">
@@ -858,7 +1008,7 @@
                     </div>
 
                 </div>
-                <div class="col-lg-4 col-md-6 col-12">
+                <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="bolg-box">
                         <div class="image">
                             <img src="./images/blog3.jpg" class="img-fluid" alt="">
@@ -878,7 +1028,7 @@
     <section class="letter">
         <div class="container">
             <div class="rw-frombox">
-                <div class="row">
+                <div class="row gy-4">
                     <div class="col-lg-8 col-12">
                         <div class="letter-box">
                             <h3>Sign up for Newsletter</h3>
@@ -908,34 +1058,34 @@
     <!-- client logo -->
     <section class="client">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-2">
+            <div class="row gy-4">
+                <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client1.png" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client2.png" class="img-fluid" alt="">
                     </div>
 
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client3.png" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client4.png" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class="col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client5.png" class="img-fluid" alt="">
                     </div>
                 </div>
-                <div class="col-lg-2">
+                <div class=" col-sm-6 col-md-4 col-lg-2">
                     <div class="client-box">
                         <img src="./images/client2.png" class="img-fluid" alt="">
                     </div>
@@ -956,7 +1106,6 @@
                             <h2>polio
                                 <span>.</span>
                             </h2>
-                            <p>Start building your Portfolio website with our awesome template Polop.</p>
                         </div>
                         <div class="footer-social">
                             <ul>
@@ -976,10 +1125,10 @@
                         <div class="foot-box">
                             <h2>Pages</h2>
                             <ul>
-                                <li> <a href="#">About Us </a></li>
-                                <li> <a href="#">Our Services </a></li>
-                                <li> <a href="#">Contact Us </a></li>
-                                <li>  <a href="#">Our Blog</a></li>
+                                <li><a href="#">About Us </a></li>
+                                <li><a href="#">Our Services </a></li>
+                                <li><a href="#">Contact Us </a></li>
+                                <li><a href="#">Our Blog</a></li>
                             </ul>
                         </div>
                     </div>
@@ -987,10 +1136,10 @@
                         <div class="foot-box">
                             <h2>More Links</h2>
                             <ul>
-                                <li> <a href="#">Topics</a></li>
+                                <li><a href="#">Topics</a></li>
                                 <li><a href="#">Terms of Use</a></li>
-                                <li> <a href="#">Privacy Policy</a></li>
-                                <li> <a href="#">License</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">License</a></li>
                             </ul>
                         </div>
 
@@ -1001,15 +1150,31 @@
                         <div class="foot-box">
                             <h2>Support</h2>
                             <ul>
-                                <li> <a href="#">Cookies</a></li>
-                                <li> <a href="#">Forum</a></li>
-                                <li> <a href="#">Support Team</a></li>
-                                <li> <a href="#">Sitemap</a></li>
+                                <li><a href="#">Cookies</a></li>
+                                <li><a href="#">Forum</a></li>
+                                <li><a href="#">Support Team</a></li>
+                                <li><a href="#">Sitemap</a></li>
                             </ul>
                         </div>
 
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-copy -->
+    <section class="footer-copy">
+        <div class="container">
+            <div class="copy-head">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="copy-box">
+                            <h3>
+                                Designed and Developed by Wpthemesgird
+                            </h3>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -16,7 +16,6 @@
 /* banner */
 .banner {
     height: 100%;
-    /* position: relative; */
     background: #4353ff;
 
 }
@@ -27,7 +26,9 @@
     height: 100%;
     background-color: #74b9ff;
     padding: 91px;
+    margin-left: -74px;
 }
+
 
 .banner-left h4 {
     font-size: 17px;

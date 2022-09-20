@@ -5,7 +5,7 @@
 .nav-bar{
     background: #f8f9fa;
 }
-.navbar-brand h2{
+.navbar-brand {
     font-size: 40px;
     font-weight: bold;
 }
@@ -256,7 +256,6 @@
     text-align: center;
     margin-top: 60px;
     margin-bottom: 80px;
-    position: relative;
     padding-top: 70px;
 }
 
@@ -331,7 +330,7 @@
 .about-items ul {
     border-bottom: 2px solid #4353ff;
     margin-bottom: 40px;
-    position: relative;
+
 
 }
 
@@ -343,7 +342,6 @@
 }
 
 .about-items ul li {
-    text-align: center;
     margin-right: 10px;
    
 }
@@ -378,7 +376,6 @@
 
 .detail-box ul {
     margin: 0px;
-    padding: 0px;
     list-style-type: none;
     border: 0;
 }
@@ -414,7 +411,6 @@
     background: #fff;
     padding-top: 70px;
     padding-bottom: 70px;
-    position: relative;
 }
 
 .servies-box {
@@ -447,7 +443,7 @@
     position: absolute;
     left: 50%;
     margin-left: -25px;
-    bottom: -1px;
+    bottom: 0;
     height: 2px;
     width: 50px;
     background: #4353ff;
@@ -531,8 +527,8 @@
     content: "";
     position: absolute;
     left: 50%;
-    margin-left: -25px;
-    bottom: -1px;
+    margin-left: -20px;
+    bottom: 0;
     height: 2px;
     width: 50px;
     background: #4353ff;
@@ -888,6 +884,7 @@
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 14px;
+    position: relative;
 
 }
 
@@ -895,7 +892,7 @@
     position: absolute;
     left: 50%;
     margin-left: -25px;
-    bottom: 70px;
+    bottom: 0;
     height: 2px;
     width: 50px;
     background: #4353ff;
@@ -910,7 +907,6 @@
 
 .team-box {
     margin-top: 30px;
-    position: relative;
     display: inline-block;
     text-align: center;
 }
@@ -997,12 +993,11 @@
     font-size: 15px;
     line-height: 24px;
     color: #fff;
+    margin-bottom: 50px;
 }
 .review-card{
     width: 100%;
-    position: relative;
     padding: 15px;
-    border-radius: 8px;
     border: 1px solid #eee;
     background-color: #f6f9fc;
     border-radius: 8px;
@@ -1042,7 +1037,6 @@
 }
 .testimonial-bottom h1{
     font-size: 18px;
-    position: relative;
     top: 20px;
     font-weight: 500;
 }
@@ -1054,8 +1048,8 @@
     font-weight: 400;
 }
 .review-card {
-    margin-top: 50px;
-    margin-bottom: 60px;
+    
+    margin-bottom: 50px;
 } 
 
 
@@ -1066,7 +1060,6 @@
 .blog-head {
     text-align: center;
     margin-bottom: 80px;
-    position: relative;
 }
 
 .blog-head h4 {
@@ -1082,13 +1075,14 @@
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 14px;
+    position: relative;
 }
 
 .blog-head h2::after {
     position: absolute;
     left: 50%;
     margin-left: -25px;
-    bottom: 70px;
+    bottom: 0;
     height: 2px;
     width: 50px;
     background: #4353ff;
@@ -1122,7 +1116,7 @@
     border-radius: 4px;
 }
 
-.blog-text span {
+.blog-text spa {
     display: inline-block;
     font-size: 14px;
     margin-bottom: 5px;

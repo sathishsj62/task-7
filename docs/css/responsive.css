@@ -1,7 +1,18 @@
-/* @media(min-width :768px)and (max-width:991px) {
+@media(max-width:576px){
+    .banner-left{
+        background-color: #4353ff;
+    }
+    .banner-right img{
+        display: none;
 
-    .pricing-head {
-        margin-bottom: 50px;
-        padding: 0px 90px;
+    }
+
+}
+/* @media(max-width:1024px){
+    .team-head p {
+        font-size: 15px;
+        line-height: 24px;
+        padding: 0 300px;
+    
     }
 } */

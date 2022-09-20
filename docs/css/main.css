@@ -335,45 +335,32 @@ a.nav-link.active {
     background: #fff;
     margin-bottom: 60px;
 }
-
-.about-items ul {
-    border-bottom: 2px solid #4353ff;
-    margin-bottom: 40px;
-
-
+.about-tab{
+    margin-top: 40px;
 }
-
-.about-items ul {
+.about-tab ul{
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
     list-style: none;
+    border-bottom: 2px solid #4353ff;
+    margin-bottom: 40px;
+    align-items: center;
 }
-
-.about-items ul li {
-    margin-right: 10px;
-   
+.about-tab ul li{
+    margin-right: 5px;
 }
-.about-items ul li a{
-    text-decoration: none;
-}
-
-.about-items ul li .active-link {
+.about-tab ul li .nav-link{
     background: #4353ff;
     color: #fff;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 4px 4px 0 0;
-    font-weight: 500;
 }
-
-
-.about-item .active-item {
+.about-tab ul li a{
     border: none;
-    padding: 0;
-    padding: 10px 25px;
+    padding: 10px 20px;
     border-radius: 4px 4px 0 0;
-    font-weight: 500;
+    font-weight: 600;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
 }
 
 .about-items p {

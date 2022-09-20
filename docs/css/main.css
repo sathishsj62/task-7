@@ -8,9 +8,16 @@
 .navbar-brand {
     font-size: 40px;
     font-weight: bold;
+    color: #1c1d1f;
 }
-.navbar-brand h2 span{
+.navbar-brand span{
     color: #4353ff;
+}a.nav-link {
+    color: #111;
+    font-weight: 500;
+}
+a.nav-link.active {
+    color: blue;
 }
 
 /* banner */
@@ -288,9 +295,11 @@
 }
 
 .about-text p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
-    color: #6e657e;
+    width: 66%;
+    font-family:sans-serif;
 }
 
 .about-boxleft {
@@ -372,6 +381,7 @@
     color: #666;
     font-size: 15px;
     line-height: 22px;
+    
 }
 
 .detail-box ul {
@@ -451,9 +461,10 @@
 }
 
 .servies-head p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
-    color: #6e657e;
+    width: 66%;
     font-family:sans-serif;
 }
 
@@ -542,9 +553,10 @@
 }
 
 .education-text p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
-    color: #6e657e;
+    width: 66%;
     font-family:sans-serif;
 }
 
@@ -624,9 +636,11 @@
 }
 
 .detail-text p {
+    margin: auto;
+    font-size: 15px;
+    line-height: 24px;
+    width: 66%;
     font-family:sans-serif;
-    color: #6e657e;
-    font-size: 13px;
 }
 
 .edu-detailend h5 {
@@ -676,10 +690,11 @@
 }
 
 .pricing-head p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
+    width: 66%;
     font-family:sans-serif;
-    color: #6e657e;
 
 }
 
@@ -779,7 +794,6 @@
 .pricing-box .Popular {
     color: #fff;
     background: #4353ff;
-    display: inline-block;
     padding: 6px 23px;
     position: absolute;
     right: -17px;
@@ -828,8 +842,11 @@
 }
 
 .portfolio-head p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
+    width: 66%;
+    font-family:sans-serif;
 }
 
 .port-box {
@@ -900,8 +917,11 @@
 }
 
 .team-head p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
+    width: 66%;
+    font-family:sans-serif;
 
 }
 
@@ -990,10 +1010,13 @@
    
 }
 .testimonial-head p{
+    margin: auto;
     font-size: 15px;
-    line-height: 24px;
     color: #fff;
-    margin-bottom: 50px;
+    line-height: 24px;
+    width: 66%;
+    font-family: sans-serif;
+    padding-bottom: 40px;
 }
 .review-card{
     width: 100%;
@@ -1090,8 +1113,11 @@
 }
 
 .blog-head p {
+    margin: auto;
     font-size: 15px;
     line-height: 24px;
+    width: 66%;
+    font-family:sans-serif;
 }
 
 .blog-box {
@@ -1116,7 +1142,7 @@
     border-radius: 4px;
 }
 
-.blog-text spa {
+.blog-text span {
     display: inline-block;
     font-size: 14px;
     margin-bottom: 5px;

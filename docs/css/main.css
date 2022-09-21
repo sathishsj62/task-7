@@ -462,7 +462,6 @@ a.nav-link.active {
     box-shadow: 0px 5px 35px #0000000d;
     border-radius: 5px;
     background: #fff;
-    margin: 15px 0;
 }
 
 .ser-box span {
@@ -557,7 +556,6 @@ a.nav-link.active {
 
 .education-box span {
     display: inline-block;
-    text-align: center;
     padding: 10px 20px;
     font-weight: 500;
     line-height: 14px;
@@ -565,17 +563,15 @@ a.nav-link.active {
     color: #fff;
     background: #4353ff;
     margin-bottom: 10px;
-    position: relative;
     border-radius: 5px;
 }
 
 .edu-detail {
     background: #fff;
-    position: relative;
     margin-bottom: 30px;
     padding: 40px 40px;
     box-shadow: 0px 0px 10px #00000014;
-    border-radius: 3px;
+    border-radius: 10px;
 
 }
 

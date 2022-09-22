@@ -1058,13 +1058,13 @@ a.nav-link.active {
 }
 
 .blog-head h2 {
-    /* font-size: 28px;
+    font-size: 28px;
     margin-bottom: 18px;
     line-height: 50px;
     text-transform: uppercase;
     font-weight: 700;
     padding-bottom: 14px;
-    position: relative; */
+    position: relative;
 }
 
 .blog-head h2::after {

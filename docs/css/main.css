@@ -950,6 +950,12 @@ a.nav-link.active {
     color: #fff;
     
 }
+.carousel-indicators .active {
+    opacity: 1;
+    width: 20px;
+    height: 20px;
+    border-radius: 17px 5px;
+}
 .testimonial-head h2{
     color: #fff;
     font-size: 28px;

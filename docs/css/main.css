@@ -1056,7 +1056,7 @@ a.nav-link.active {
     margin-bottom: 10px;
     font-size: 15px;
 }
-
+/* 
 .blog-head h2 {
     font-size: 28px;
     margin-bottom: 18px;
@@ -1065,7 +1065,7 @@ a.nav-link.active {
     font-weight: 700;
     padding-bottom: 14px;
     position: relative;
-}
+} */
 
 .blog-head h2::after {
     position: absolute;
